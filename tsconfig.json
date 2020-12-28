@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": "src",
+    "lib": ["es2017", "esnext.asynciterable"],
+
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@root/*": ["./*"],
+      "@config": ["config"]
+    }
+  },
+  "exclude": ["./node_modules", "./build"]
+}
