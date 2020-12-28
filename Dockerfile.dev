@@ -1,0 +1,5 @@
+FROM node:lts as development
+RUN apt update 
+WORKDIR /app
+COPY . /app
+

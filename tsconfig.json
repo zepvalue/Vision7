@@ -2,8 +2,7 @@
   "compilerOptions": {
     "outDir": "./build",
     "rootDir": "src",
-    "lib": ["es2017", "esnext.asynciterable"],
-
+    "lib": ["dom", "es2017", "esnext.asynciterable"],
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
