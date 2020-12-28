@@ -11,7 +11,9 @@
   "author": "Giuseppe Valentino @zepvalue",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@types/express": "^4.17.9",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "tsc-watch": "^4.2.9",

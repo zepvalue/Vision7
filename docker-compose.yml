@@ -4,6 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
+
+    command: npm run dev
     ports:
       - "3000:3000"
     restart: always
