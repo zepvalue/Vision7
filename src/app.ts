@@ -1,8 +1,10 @@
 import express from "express";
 import Logger from "./loaders/logger";
 
-(function () {
+(async function () {
   const app = express();
+
+  await require("./loaders").default({ expressApp: app });
 
   app
     .listen(3000, () => Logger.info("✔ Running..."))
